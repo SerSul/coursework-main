@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200;1,500&display=swap');
+
+
 :root {
     --background-default: #ADD8E6;
     --textcolor-default: rgb(29, 29, 29);
@@ -9,6 +13,7 @@ html, body {
     margin: 0;
     padding: 0;
     background: var(--background-default);
+    
 }
 
 .MainHeader {
@@ -108,12 +113,12 @@ justify-content: flex-end;
     display: block;
     font-size: 15px;
     font-weight: 500;
-    height: auto; /* Изменено значение на auto */
+    height: auto;
     letter-spacing: 2px;
-    line-height: 24px; /* Изменено значение на 24px */
+    line-height: 24px; 
     margin: 0 14px;
-    padding-top: 6px; /* Изменено значение на 12px */
-    padding-bottom: 6px; /* Изменено значение на 12px */
+    padding-top: 6px; 
+    padding-bottom: 6px; 
     padding-left: 0;
     padding-right: 0;
 
@@ -166,15 +171,6 @@ justify-content: flex-end;
     transition: left 0s linear, transform 0.2s ease-out, opacity 0.2s ease-out;
 }
 
-
-
-footer {
-    height: a;
-    bottom: 0; 
-    width: auto; 
-    padding: 20px; 
-  }
-  
 .site-logo {
     position: absolute;
     bottom: 5px;
@@ -210,7 +206,7 @@ main {
 
 
 .gallery-item {
-	flex: 1 0 14rem;
+	flex: 1 0 18rem;
 	margin: 1rem;
 	box-shadow: 0.3rem 0.4rem 0.5rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
 
 
-    <title>Студии и персонажи</title>
+    <title>Студия Мельница</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/melnitsa.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <script>
@@ -15,53 +16,110 @@
         
 </head>
 <body>
-<header class="MainHeader">
+  <header class="MainHeader">
 
-  <div class="Header-top" data-nc-group="top">
-    <div data-nc-container="top-left">
-      <img src="/logos/site_logo.png" alt="Лого" class="site-logo">
-      </div>
-      <div data-nc-container="top-right">
-        <div class="Header-nav">
-                <span class="Header-nav-item Header-nav-item--folder">
-                    <a class="Header-nav-folder-title" >Российские студии</a>
-                    <div class="Header-nav-folder">
-                        <a href="studios/souzmultfilm.html" class="Header-nav-folder-item">Союзмультфильм</a>
-                        <a href="studios/melnitsa.html" class="Header-nav-folder-item">Мельница</a>
-                    </div>
-                </span>
 
-                <span class="Header-nav-item Header-nav-item--folder">
-                    <a class="Header-nav-folder-title" >Зарубежные студии</a>
-                     <span class="Header-nav-folder">
-                        <a href="studios/Walt-Disney-Animation-Studios.html" class="Header-nav-folder-item">Walt Disney Animation Studios</a>
-                        <a href="studios/Pixar-Animation-Studios.html" class="Header-nav-folder-item">Pixar Animation Studios</a>
-                        <a href="studios/Studio-Ghibli.html" class="Header-nav-folder-item">Studio Ghibli</a>
-                        <a href="studios/DreamWorks-Animation-SKG.html" class="Header-nav-folder-item">DreamWorks Animation SKG</a>
-                        <a href="studios/Sony-Pictures.html" class="Header-nav-folder-item">Sony Pictures</a>
-
-                     </span>
-
-                </span>
-                <span class="Header-nav-item">
-                  <a class="Header-nav-folder-title" href="/studios/classic.html">Классика мировой анимации</a>
-                </span>
-            </div>
+    <div class="Header-top" data-nc-group="top">
+      <div data-nc-container="top-left">
+        <a href="/mainPage.html">
+          <img src="/logos/site_logo.png" alt="Лого" class="site-logo">
+        </a>
         </div>
-    </div>
-
-</header>
+        <div data-nc-container="top-right">
+          <div class="Header-nav">
+                  <span class="Header-nav-item Header-nav-item--folder">
+                      <a class="Header-nav-folder-title" >Российские студии</a>
+                      <div class="Header-nav-folder">
+                        <a href="/studios/souzmultfilm.html" class="Header-nav-folder-item">Союзмультфильм</a>
+                        <a href="/studios/melnitsa.html" class="Header-nav-folder-item">Мельница</a>
+                      </div>
+                  </span>
+  
+                  <span class="Header-nav-item Header-nav-item--folder">
+                      <a class="Header-nav-folder-title" >Зарубежные студии</a>
+                       <span class="Header-nav-folder">
+                          <a href="/studios/Pixar-Animation-Studios.html" class="Header-nav-folder-item">Pixar Animation Studios</a>
+                          <a href="/studios/DreamWorks-Animation-SKG.html" class="Header-nav-folder-item">DreamWorks Animation SKG</a>
+                       </span>
+  
+                  </span>
+                  <span class="Header-nav-item">
+                    <a class="Header-nav-folder-title" href="/studios/classic.html">Классика мировой анимации</a>
+                  </span>
+              </div>
+          </div>
+      </div>
+  
+  </header>
+  
 
 <main>
 
+  
 
 </main>
 
-<footer>
-  <p>© 2023 Laplas7</p>
-</footer>
+<ul class="cards">
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--uliy"></div>
+      <div class="card__content">
+        <div class="card__title">Конь Юлий</div>
+        <p class="card__text">
+          Гай Юлий Цезарь, известный как Юлий, - великолепный богатырский конь и надежный спутник в мире "Три богатыря". 
+          Обладая внешностью гнедого коня с коричневым окрасом, рыжей гривой и хвостом, Юлий также проявляет свою болтливость и любовь к золоту.
+        </p>      </div>
+    </div>
+  </li>
+  
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--alesha"></div>
+        <div class="card__content">
+          <div class="card__title">Алёша Попович</div>
+        <p class="card__text">Самый младший богатырь. Простой, весёлый и честный. Родом из славного города Ростова. Сын соборного попа. Сначала не смог обучиться грамоте, но потом ему это удалось. С детства увлёкся ратным делом, в чём и преуспел. Умеет пользоваться луком, дубиной и мечом. Люди любят его за бесконечную доброту. У князя киевского по началу служить не хотел, но позже, когда богатыри собрались втроём, поступил к нему на службу. Любимый клич Алёши перед боем: «Отведай-ка силушки богатырской!»</p>
+        </div>
+ 
+        </div>
+      </div>
+    </li>
 
-
-
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--dobrynia"></div>
+        <div class="card__content">
+          <div class="card__title">Добрыня Никитич</div>
+          <p class="card__text">Отважный широкоплечий красавец. Самый рассудительный богатырь. Мудрый, сильный, но строгий. Способен победить целое войско, а также отличается особенно крепким сном, который придаёт ему силы. Женат на властной и хозяйственной Настасье Филипповне. Начальник дружины князя киевского, его защита и опора.</p>
+                  </div>
+      </div>
+      
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--muromets"></div>
+          <div class="card__content">
+            <div class="card__title">Илья Муромец</div>
+            <p class="card__text">Самый сильный богатырь из троицы. Спокойный, добрый, бескорыстный. Верит в судьбу, приметы и силу «земли русской». Наблюдательный и разумный. Крепко любит верного коня Бурушку и природу. Беззаветно предан своим товарищам и является их лидером.</p>
+          </div>
+        </div>
+        <li class="cards__item">
+          <div class="card">
+            <div class="card__image card__image--knyaz"></div>
+            <div class="card__content">
+              <div class="card__title">Князь Киевский</div>
+              <p class="card__text">Правитель Киева, наследник Владимира Красно Солнышко. Прямой начальник богатырей и основной источник их проблем. Наивен, капризен, властолюбив и трусоват. Из-за его недальновидных действий в киевском княжестве частенько не спокойно. Одна надежда на трёх богатырей, которые с доблестью служат своему начальнику и земле русской.</p>
+            </div>
+          </div>
+        </li>
+        <li class="cards__item">
+          <div class="card">
+            <div class="card__image card__image--zabava"></div>
+            <div class="card__content">
+              <div class="card__title">Забава</div>
+              <p class="card__text">Княжна и племянница князя киевского, пышущая здоровьем русская красавица. Боевая, сильная, умная девушка, умеющая постоять за себя. При этом романтична, верит в чистую любовь. Родной дядя чуть не отдал её замуж за 40 тысяч долга уродливому сластолюбцу, но всё решилось самым лучшим образом, и Забава вышла замуж за своего возлюбленного гонца Елисея.</p>
+            </div>
+          </div>
+    </li>
+</ul>
 
 </html>
+

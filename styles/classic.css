@@ -1,0 +1,83 @@
+
+
+.card__image--voody {
+    background-image: url(/images/pixar/voody.webp);
+  }
+
+  
+  .card__image--gubka {
+    background-image: url(/images/pixar/gubka.jpg);
+  }
+
+
+
+:root {
+    --background-default: #ADD8E6;
+    --textcolor-default: rgb(29, 29, 29);
+    --main-font: 'Roboto Condensed', serif;
+    --body-font: 'Poppins', sans-serif;
+}
+
+main {
+    font-family: var(--body-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.character {
+    display: inline;
+    width: 45%;
+}
+.character--text
+{
+    flex: 1 1 auto;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
+.info-block
+{
+    width: auto;
+    height: auto;
+    background-color: #d9eff3;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin-top:10px;
+}
+
+.character--header {
+    margin-left: 20px;
+    font-size: 30px;
+    width: 100%;
+    
+
+}
+
+  .card__image {
+    border-radius: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  .card__image::before {
+    content: "";
+    display: block;
+    padding-top: 53%;
+  }
+
+
+
+  
+  @media (max-width: 1000px) {
+
+    .character
+    {
+        width: 90%;
+    }
+  }

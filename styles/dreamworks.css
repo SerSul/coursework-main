@@ -1,6 +1,10 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap");
 
+:root {
+  --background-default: #ADD8E6;
+  --textcolor-default: rgb(29, 29, 29);
+  --main-font: 'Roboto Condensed', serif;
+  --body-font: 'Poppins', sans-serif;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +12,7 @@
 }
 
 body {
-  font-family: "Sometype Mono", monospace;
+  font-family:var(--body-font);
   height: 100vh;
 }
 
@@ -22,7 +26,7 @@ body {
 .left-slide {
   height: 100%;
   width: 35%;
-  position: absolute;
+  position: inherit;
   top: 0;
   left: 0;
   transition: transform 0.5s ease-in-out;

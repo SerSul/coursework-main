@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --background-default: #ADD8E6;
+  --textcolor-default: rgb(29, 29, 29);
+  --main-font: 'Roboto Condensed', serif;
+  --body-font: 'Poppins', sans-serif;
+}
+
+
+main {
+
+  font-family: var(--body-font);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+    width: 33.3333%;
+  display: flex;
+  padding: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .cards__item {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .card__image::before {
+    padding-top: 66.6%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+
+  overflow: hidden;
+  position: relative;
+  transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91), -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+.card__image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.card__image--uliy {
+  background-image: url(/images/melnitsa/uliy.jpg);
+}
+.card__image--alesha {
+  background-image: url(/images/melnitsa/alesha.jpg);
+}
+.card__image--knyaz {
+  background-image: url(/images/melnitsa/knyaz.jpg);
+}
+.card__image--dobrynia {
+  background-image: url(/images/melnitsa/dobrynia.png);
+}
+.card__image--muromets {
+    background-image: url(/images/melnitsa/muromets.jpg);
+  }
+  .card__image--zabava {
+    background-image: url(/images/melnitsa/zabava.jpg);
+  }
+.card__title {
+  color: #696969;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card__text {
+  flex: 1 1 auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
