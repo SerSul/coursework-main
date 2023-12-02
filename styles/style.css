@@ -6,6 +6,7 @@
     --background-default: #ADD8E6;
     --textcolor-default: rgb(29, 29, 29);
     --main-font: 'Roboto Condensed', serif;
+    --body-font: 'Poppins', sans-serif;
 }
 
 html, body {
