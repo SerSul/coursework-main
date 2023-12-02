@@ -207,7 +207,7 @@ main {
 
 
 .gallery-item {
-	flex: 1 0 18rem;
+	flex: 1 0 25rem;
 	margin: 1rem;
 	box-shadow: 0.3rem 0.4rem 0.5rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
