@@ -146,7 +146,7 @@ justify-content: flex-end;
     position: absolute;
     text-align: left;
     text-transform: uppercase;
-    top: 32px;
+    top: 30px;
     transition: left 0s linear, transform 0.2s ease-out, opacity 0.2s ease-out;
     white-space-collapse: collapse;
     -webkit-font-smoothing: antialiased;
